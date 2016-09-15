@@ -1,6 +1,7 @@
 [
   "intro.md",
-  "microcontrollers.md",
+  "uC.md",
   "FPGAs.md",
-  "python-resources.md"
+  "python-resources.md",
+  "end.md"
 ]

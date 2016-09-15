@@ -8,6 +8,9 @@ By Jesús Arroyo Torrens
 
 1. Hello
 
+- Item 1 <!-- .element: class="fragment" data-fragment-index="2" -->
+- Item 2 <!-- .element: class="fragment" data-fragment-index="1" -->
+
 ---
 
 ## Second slide

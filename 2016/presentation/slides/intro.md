@@ -1,26 +1,27 @@
 <!-- .slide: data-background="resources/background.png" -->
 
-<h1 style="color: white;">
+<h1 style="color: #EEEEEE;">
   Python, microcontrollers and FPGAs
 </h1>
 
-<i style="color: white;">
-  by Jesús Arroyo Torrens
+<div style="color: #EEEEEE;">
+  PyConES 2016
+<div>
+
+</br></br>
+
+<i style="color: #EEEEEE;">
+  Created by Jesús Arroyo Torrens
 <i>
 
-</br>
-
-<div style="color: #77c7f7;">
+<div style="color: #77C7F7;">
   \#FPGAwars
 <div>
 
----
-
-## Element attributes
-
-- Item 1 <!-- .element: class="fragment" data-fragment-index="2" -->
-- Item 2 <!-- .element: class="fragment" data-fragment-index="1" -->
+<div class="row" style="float: right; transform: scale(0.3, 0.3); -ms-transform: scale(0.3, 0.3); -webkit-transform: scale(0.3, 0.3);">
+  ![](resources/by-sa.png)
+</div>
 
 ---
 
-![](resources/index.svg)
+![](resources/index/0.svg)
