@@ -1,2 +1,2 @@
-# ¿Questions?
+# Questions?
 # Thanks!

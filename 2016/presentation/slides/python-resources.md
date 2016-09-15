@@ -3,9 +3,9 @@
 ![](resources/python-logo-mini.png)
 
 - click
-- scons
-- pyserial
-- requests
+- SCons
+- pySerial
+- Requests
 - pytest
 - tox
 

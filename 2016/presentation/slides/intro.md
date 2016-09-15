@@ -1,14 +1,16 @@
 <!-- .slide: data-background="resources/background.png" -->
 
+</br>
+
 <h1 style="color: #EEEEEE;">
-  Python, microcontrollers and FPGAs
+  Python, &micro;Controllers and FPGAs
 </h1>
 
 <div style="color: #EEEEEE;">
   PyConES 2016
 <div>
 
-</br></br>
+</br></br></br>
 
 <i style="color: #EEEEEE;">
   Created by Jesús Arroyo Torrens
@@ -25,3 +27,5 @@
 ---
 
 ![](resources/index/0.svg)
+
+<!-- .slide: data-transition="slide-in fade-out" -->
