@@ -1,3 +1,6 @@
 [
-  "index.md"
+  "intro.md",
+  "microcontrollers.md",
+  "FPGAs.md",
+  "python-resources.md"
 ]
