@@ -4,7 +4,7 @@
 
 ---
 
-### What is a microcontroller?
+## What is a microcontroller?
 
 
 
@@ -16,37 +16,37 @@
 
 ---
 
-## Open Source Toolchain
+# Open Source Toolchain
 
 ---
 
-### GNU C Compiler
+## GNU C Compiler
 (1987)
 
 </br>
 
-* *Language*: C
+* *Language*: **C**
 * *Architecture*: Motorola 68000
 
 ![](resources/mc68000.jpg)
 
 ---
 
-### GNU Compiler Collection
+## GNU Compiler Collection
 [1987, 2016)
 
 </br>
 
-* *Languages*: C, C++, Java, Ada, Objective-C, Fortran, Go ...
+* *Languages*: **C, C++, Java, Ada, Objective-C, Fortran, Go ...**
 * *Architectures*: ARM, AVR, AMD64, IA-32, PIC, Xtensa, **RISC-V**, ...
 
-</br>
+![](resources/gcc-internals.jpg)
 
-Other compilers: clang [2007, 2016)
+Other compilers: clang/LLVM [2007, 2016)/[2003, 2016)
 
 ---
 
-### GCC flowchart
+## GCC flowchart
 
 </br>
 
@@ -54,11 +54,16 @@ Other compilers: clang [2007, 2016)
 
 ---
 
-### GCC flowchart - example
+## GCC flowchart - example
 
 [examples/microcontroller/gcc]()
 
+</br>
+
 ```c
+#define A 1
+#define B 2
+
 void main() {
     printf("%d + %d = %d\n", A, B, sum(A, B));
 }
@@ -98,29 +103,29 @@ main:
 
 ---
 
-## Open Source Boards
+# Open Source Boards
 
 ---
 
-### Arduino
+## Arduino
 
 [2005, 2016)
 
 ![](resources/arduino.png)
 
-* *Languages*: C, C++, ...
+* *Languages*: **C, C++, ...**
 * *Architecture*: Atmel AVR
 * *Sources*: https://github.com/arduino
 
 ---
 
-### NodeMCU
+## NodeMCU
 
 [2014, 2016)
 
 ![](resources/nodemcu.png)
 
-* *Language*: C, C++, Lua, MicroPython, ...
+* *Languages*: **C, C++, Lua, MicroPython, ...**
 * *Architecture*: Xtensa (**ESP8266**)
 * *Sources*: https://github.com/nodemcu
 
@@ -132,55 +137,51 @@ main:
 
 ---
 
-### Open Source IDEs
+# Open Source Multiplatform IDEs
 
 ---
 
-### Vim
+## Vim
 
 [1991, 2016)
 
-![](resources/vim.png)
+![](resources/vim-min.png)
 
-* *Written in*: C
-* *OS*: Linux, Windows, Mac OS X
+* *Written in*: **C**
 * *Sources*: https://github.com/vim/vim
 
 
 ---
 
-### Arduino IDE
+## Arduino IDE
 
 [2005, 2016)
 
-![](resources/arduino-ide.png)
+![](resources/arduino-ide-min.png)
 
-* *Written in*: Java, C, C++
-* *OS*: Linux, Windows, Mac OS X
+* *Written in*: **Java, C, C++**
 * *Sources*: https://www.arduino.cc
 
 ---
 
-### Eclipse
+## Eclipse
 
 [2001, 2016)
 
 ![](resources/eclipse-min.png)
 
-* *Written in*: Java
-* *OS*: Linux, Windows, Mac OS X
-* *Sources*: https://www.eclipse.org/
+* *Written in*: **Java**
+* *Sources*: https://www.eclipse.org
 
 ---
 
-### Atom
+## Atom
 
 [2014, 2016)
 
 ![](resources/atom-min.png)
 
-* *Written in*: Javascript, HTML
-* *OS*: Linux, Windows, Mac OS X
+* *Written in*: **Javascript, HTML**
 * *Sources*: https://github.com/atom/atom
 
 ---
@@ -192,3 +193,44 @@ main:
 ---
 
 ## &micro;Controllers and Python
+
+---
+
+## PlatformIO
+
+[2014, 2016)
+
+![](resources/platformio-logo.png)
+
+|                           |
+|---------------------------|
+| 19 Development Platforms  |
+| 148 Microcontroller Units |
+| 321 Embedded Boards       |
+| 1.159 Libraries           |
+| 5.837 Library Examples    |
+|                           |
+
+</br>
+
+* *Written in*: **Python**
+* *Sources*: https://github.com/platformio/platformio
+
+---
+
+## PlatformIO CLI
+
+[2014, 2016)
+
+![](resources/platformio.gif)
+
+---
+
+## PlatformIO IDE
+
+[2016)
+
+![](resources/platformio-ide-min.png)
+
+* *Written in*: **Javascript, HTML**
+* *Sources*: https://github.com/platformio/platformio-atom-ide
