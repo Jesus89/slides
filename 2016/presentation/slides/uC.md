@@ -4,7 +4,7 @@
 
 ---
 
-## What is a microcontroller?
+# What is a microcontroller?
 
 
 
@@ -27,6 +27,7 @@
 
 * *Language*: **C**
 * *Architecture*: Motorola 68000
+* *Website*: https://gcc.gnu.org/
 
 ![](resources/mc68000.jpg)
 
@@ -192,7 +193,7 @@ main:
 
 ---
 
-## &micro;Controllers and Python
+# Python and &micro;Controllers
 
 ---
 
@@ -218,7 +219,7 @@ main:
 
 ---
 
-## PlatformIO CLI
+## PlatformIO - demo
 
 [2014, 2016)
 
@@ -228,7 +229,7 @@ main:
 
 ## PlatformIO IDE
 
-[2016)
+(2016)
 
 ![](resources/platformio-ide-min.png)
 
