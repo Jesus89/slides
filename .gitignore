@@ -1,4 +1,11 @@
 **/node_modules
 **/bower_components
+**/build
 **/dist
 **/*.log
+*.sconsign.dblite
+*.pyc
+**/__pycache__
+**/.cache
+**/.tox
+**.egg-info

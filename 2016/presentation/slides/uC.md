@@ -187,6 +187,17 @@ main:
 
 ---
 
+## PlatformIO IDE
+
+(2016)
+
+![](resources/platformio-ide-min.png)
+
+* *Written in*: **Javascript, HTML**
+* *Sources*: https://github.com/platformio/platformio-atom-ide
+
+---
+
 <!-- .slide: data-transition="slide-in fade-out" -->
 
 ![](resources/index/5.svg)
@@ -224,14 +235,3 @@ main:
 [2014, 2016)
 
 ![](resources/platformio.gif)
-
----
-
-## PlatformIO IDE
-
-(2016)
-
-![](resources/platformio-ide-min.png)
-
-* *Written in*: **Javascript, HTML**
-* *Sources*: https://github.com/platformio/platformio-atom-ide

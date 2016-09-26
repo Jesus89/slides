@@ -230,6 +230,17 @@ endmodule
 
 ---
 
+## Apio IDE
+
+(2016)
+
+![](resources/apio-ide-min.png)
+
+* *Written in*: **Javascript, HTML**
+* *Sources*: https://github.com/FPGAwars/apio-ide
+
+---
+
 <!-- .slide: data-transition="slide-in fade-out" -->
 
 ![](resources/index/10.svg)
@@ -271,14 +282,3 @@ endmodule
 
 <iframe width="700" height="395" src="https://www.youtube.com/embed/UJ6-_42P5BE">
 </iframe>
-
----
-
-## Apio IDE
-
-(2016)
-
-![](resources/apio-ide-min.png)
-
-* *Written in*: **Javascript, HTML**
-* *Sources*: https://github.com/FPGAwars/apio-ide
