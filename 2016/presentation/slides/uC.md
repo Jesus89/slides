@@ -47,15 +47,13 @@ Other compilers: clang/LLVM [2007, 2016)/[2003, 2016)
 
 ---
 
-## GCC flowchart
+## GCC flow
 
-</br>
-
-![](resources/gcc-flowchart.png)
+![](resources/gcc-flow.png)
 
 ---
 
-## GCC flowchart - example
+## GCC flow - example
 
 [examples/microcontroller/gcc]()
 

@@ -31,35 +31,17 @@
 
 ---
 
-## IceStorm flowchart
+## IceStorm flow
 
-</br>
-
-* Yosys:
-* Arachne PnR:
-* Icepack:
-* Iceprog:
-
-![](resources/)
-
-```bash
-yosys -p "synth_ice40 -blif leds.blif" led.v
-arachne-pnr -d 1k -P tq144 -p led.pcf -o led.asc led.blif
-icepack led.asc led.bin
-iceprog -d i:0x0403:0x6010:0 led.bin
-```
+![](resources/icestorm-flow.png)
 
 ---
 
-## IceStorm flowchart - example
+## IceStorm flow - example
 
 [examples/FPGA/icestorm]()
 
 </br>
-
-```v
-set_io LED 99
-```
 
 ```v
 module led(output wire LED);
@@ -67,7 +49,7 @@ module led(output wire LED);
 endmodule
 ```
 
-```c
+```
 .model led
 .inputs
 .outputs LED
@@ -79,6 +61,10 @@ endmodule
 1 1
 .end
 
+```
+
+```v
+set_io LED 99
 ```
 
 ```
@@ -157,7 +143,7 @@ endmodule
 
 ---
 
-## Icezum
+## IceZUM
 
 (2016)
 
