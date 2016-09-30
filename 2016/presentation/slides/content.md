@@ -1,18 +1,96 @@
-![](resources/index/6.svg)
+# 1. Introduction
+
+---
+
+# What is a microcontroller?
+
+TODO:
 
 ---
 
 # What is an FPGA?
 
----
-
-<!-- .slide: data-transition="slide-in fade-out" -->
-
-![](resources/index/7.svg)
+TODO:
 
 ---
 
-# Open Source Toolchain
+# 2. Open Source Toolchains
+
+---
+
+## GNU C Compiler
+(1987)
+
+</br>
+
+* *Language*: **C**
+* *Architecture*: Motorola 68000
+* *Website*: https://gcc.gnu.org/
+
+![](resources/2.toolchains/mc68000.jpg)
+
+---
+
+## GNU Compiler Collection
+[1987, 2016)
+
+</br>
+
+* *Languages*: **C, C++, Java, Ada, Objective-C, Fortran, Go ...**
+* *Architectures*: ARM, AVR, AMD64, IA-32, PIC, Xtensa, **RISC-V**, ...
+
+![](resources/2.toolchains/gcc-internals.jpg)
+
+New compilers: clang/LLVM [2007, 2016)/[2003, 2016)
+
+---
+
+## GCC flow
+
+![](resources/2.toolchains/gcc-flow.png)
+
+---
+
+## GCC flow - example
+
+[examples/microcontroller/gcc]()
+
+</br>
+
+```c
+#define A 1
+#define B 2
+
+void main() {
+    printf("%d + %d = %d\n", A, B, sum(A, B));
+}
+```
+
+```c
+void main() {
+    printf("%d + %d = %d\n", 1, 2, sum(1, 2));
+}
+```
+
+```as
+main:
+      movl    $2, %esi
+      movl    $1, %edi
+      call    sum
+      movl    %eax, %ecx
+      movl    $2, %edx
+      movl    $1, %esi
+      movl    $.LC0, %edi
+      movl    $0, %eax
+      call    printf
+```
+
+```
+0000020a: 00000000 00000000 00000000 00000000 00000000 00000000
+00000210: 00000000 01100101 01111000 01100001 01101101 01110000
+00000216: 01101100 01100101 00101110 01100011 00000000 01101101
+0000021c: 01100001 01101001 01101110 00000000 01110011 01110101
+```
 
 ---
 
@@ -27,13 +105,13 @@
 
 </br>
 
-![](resources/lattice-iCE40.png)
+![](resources/2.toolchains/lattice-iCE40.png)
 
 ---
 
 ## IceStorm flow
 
-![](resources/icestorm-flow.png)
+![](resources/2.toolchains/icestorm-flow.png)
 
 ---
 
@@ -90,17 +168,35 @@ set_io LED 99
 
 </br>
 
-![](resources/gtkwave-simulation.png)
+![](resources/2.toolchains/gtkwave-simulation.png)
 
 ---
 
-<!-- .slide: data-transition="slide-in fade-out" -->
-
-![](resources/index/8.svg)
+# 3. Open Source Boards
 
 ---
 
-# Open Source Boards
+## Arduino
+
+[2005, 2016)
+
+![](resources/3.boards/arduino.png)
+
+* *Languages*: **C, C++, ...**
+* *Architecture*: Atmel AVR
+* *Sources*: https://github.com/arduino
+
+---
+
+## NodeMCU
+
+[2014, 2016)
+
+![](resources/3.boards/nodemcu.png)
+
+* *Languages*: **C, C++, Lua, MicroPython, ...**
+* *Architecture*: Xtensa (**ESP8266**)
+* *Sources*: https://github.com/nodemcu
 
 ---
 
@@ -108,7 +204,7 @@ set_io LED 99
 
 </br>
 
-![](resources/lattice.png)
+![](resources/3.boards/lattice.png)
 
 * *FPGA*: iCE40
 * **No sources available**
@@ -119,7 +215,7 @@ set_io LED 99
 
 (2016)
 
-![](resources/icoboard-min.png)
+![](resources/3.boards/icoboard-min.png)
 
 * *FPGA*: iCE40-HK8K-CT256
 * *Sources*: http://icoboard.org
@@ -147,14 +243,14 @@ set_io LED 99
 
 (2016)
 
-![](resources/icezum-min.png)
+![](resources/3.boards/icezum-min.png)
 
 * *FPGA*: iCE40-HK1K-TQ144
 * *Sources*: https://github.com/FPGAwars/icezum
 
 ---
 
-## Icezum - demo
+## IceZUM - demo
 
 (2016)
 
@@ -184,13 +280,64 @@ set_io LED 99
 
 ---
 
-<!-- .slide: data-transition="slide-in fade-out" -->
-
-![](resources/index/9.svg)
+# 4. Open Source IDEs
 
 ---
 
-# Open Source Multiplatform IDEs
+
+## Vim
+
+[1991, 2016)
+
+![](resources/4.ides/vim-min.png)
+
+* *Written in*: **C**
+* *Sources*: https://github.com/vim/vim
+
+
+---
+
+## Arduino IDE
+
+[2005, 2016)
+
+![](resources/4.ides/arduino-ide-min.png)
+
+* *Written in*: **Java, C, C++**
+* *Sources*: https://www.arduino.cc
+
+---
+
+## Eclipse
+
+[2001, 2016)
+
+![](resources/4.ides/eclipse-min.png)
+
+* *Written in*: **Java**
+* *Sources*: https://www.eclipse.org
+
+---
+
+## Atom
+
+[2014, 2016)
+
+![](resources/4.ides/atom-min.png)
+
+* *Written in*: **Javascript, HTML**
+* *Sources*: https://github.com/atom/atom
+
+---
+
+## PlatformIO IDE
+
+(2016)
+
+![](resources/4.ides/platformio-ide-min.png)
+
+* *Written in*: **Javascript, HTML**
+* *Sources*: https://github.com/platformio/platformio-atom-ide
 
 ---
 
@@ -198,7 +345,7 @@ set_io LED 99
 
 (2016)
 
-![](resources/icestudio-min.png)
+![](resources/4.ides/icestudio-min.png)
 
 * *Written in*: **Javascript, HTML**
 * *Sources*: https://github.com/FPGAwars/icestudio
@@ -220,24 +367,48 @@ set_io LED 99
 
 (2016)
 
-![](resources/apio-ide-min.png)
+![](resources/4.ides/apio-ide-min.png)
 
 * *Written in*: **Javascript, HTML**
 * *Sources*: https://github.com/FPGAwars/apio-ide
 
 ---
 
-<!-- .slide: data-transition="slide-in fade-out" -->
-
-![](resources/index/10.svg)
+# 5. Python
 
 ---
 
-# Python and FPGAs
+## PlatformIO
+
+[2014, 2016)
+
+![](resources/5.python/platformio-logo.png)
+
+|                           |
+|---------------------------|
+| 19 Development Platforms  |
+| 148 Microcontroller Units |
+| 321 Embedded Boards       |
+| 1.159 Libraries           |
+| 5.837 Library Examples    |
+|                           |
+
+</br>
+
+* *Written in*: **Python**
+* *Sources*: https://github.com/platformio/platformio
 
 ---
 
-![](resources/apio-logo-min.png)
+## PlatformIO - demo
+
+[2014, 2016)
+
+![](resources/5.python/platformio.gif)
+
+---
+
+![](resources/5.python/apio-logo-min.png)
 
 (2016)
 

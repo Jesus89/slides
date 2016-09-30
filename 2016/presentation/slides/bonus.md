@@ -1,6 +1,6 @@
 # Bonus
 
-![](resources/python-logo-mini.png)
+![](resources/6.bonus/python-logo-mini.png)
 
 - click
 - SCons

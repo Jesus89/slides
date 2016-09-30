@@ -1,4 +1,4 @@
-<!-- .slide: data-background="resources/background.png" -->
+<!-- .slide: data-background="resources/0.cover/background.png" -->
 
 </br></br></br>
 
@@ -21,11 +21,25 @@
 </div>
 
 <div class="row" style="float: right; transform: scale(0.3, 0.3); -ms-transform: scale(0.3, 0.3); -webkit-transform: scale(0.3, 0.3);">
-  ![](resources/by-sa.png)
+  ![](resources/0.cover/by-sa.png)
 </div>
 
 ---
 
-![](resources/index/0.svg)
+<!-- .slide: data-background="resources/0.cover/background.png" -->
+
+<h2 style="color: #EEEEEE;">
+  <ol>
+    <li>Introduction</li>
+    </br>
+    <li>Open Source Toolchains</li>
+    </br>
+    <li>Open Source Boards</li>
+    </br>
+    <li>Open Source IDEs</li>
+    </br>
+    <li>Python</li>
+  </ol>
+</h2>
 
 <!-- .slide: data-transition="slide-in fade-out" -->

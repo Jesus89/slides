@@ -224,7 +224,7 @@ body {
  *********************************************/
 .reveal section img {
   margin: 15px 0px;
-  background: rgba(255, 255, 255, 0.12); }
+  background: rgba(255, 255, 255, 0); }
 
 /*
 border: 4px solid #fff;

@@ -1,7 +1,6 @@
 [
-  "intro.md",
-  "uC.md",
-  "FPGAs.md",
-  "python-resources.md",
+  "cover.md",
+  "content.md",
+  "bonus.md",
   "end.md"
 ]
