@@ -23,23 +23,3 @@
 <div class="row" style="float: right; transform: scale(0.3, 0.3); -ms-transform: scale(0.3, 0.3); -webkit-transform: scale(0.3, 0.3);">
   ![](resources/0.cover/by-sa.png)
 </div>
-
----
-
-<!-- .slide: data-background="resources/0.cover/background.png" -->
-
-<h2 style="color: #EEEEEE;">
-  <ol>
-    <li>Introduction</li>
-    </br>
-    <li>Open Source Toolchains</li>
-    </br>
-    <li>Open Source Boards</li>
-    </br>
-    <li>Open Source IDEs</li>
-    </br>
-    <li>Python</li>
-  </ol>
-</h2>
-
-<!-- .slide: data-transition="slide-in fade-out" -->

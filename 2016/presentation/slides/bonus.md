@@ -1,13 +1,18 @@
-# Bonus
+<!-- .slide: data-background="resources/0.cover/background.png" -->
+
+<h1 style="color: #EEEEEE;">
+  Bonus
+</h1>
 
 ![](resources/6.bonus/python-logo-mini.png)
 
-- click
-- SCons
-- pySerial
-- Requests
-- pytest
-- tox
+</br>
+
+<h3 style="color: #EEEEEE;">
+  click - SCons - pySerial - pytest - tox
+</h3>
+
+<!-- .slide: data-transition="slide-in fade-out" -->
 
 ---
 
@@ -15,12 +20,7 @@
 
 http://click.pocoo.org
 
-* Command Line Interface Creation Kit
-* Unix command line conventions
-* Fully nestable and composable
-* Environment variables, prompting, file handling
-* Useful common helpers
-* Python 2 and 3
+Command Line Interface Creation Kit
 
 ```python
 import click
@@ -34,6 +34,8 @@ def hello(count):
 if __name__ == '__main__':
     hello()
 ```
+
+</br>
 
 ```bash
 $ python hello.py --help
@@ -58,11 +60,9 @@ Hello!
 
 http://scons.org/
 
-* A software construction tool
-* Cross-platform substitute for the classic Make utility
-* Automatic dependency analysis
-* Support multiple languages
-* Python 2 (+3 support in >2.5.0)
+A software construction tool. Cross-platform substitute for the classic Make utility
+
+Python 2 (+3 support in >2.5.0)
 
 ```python
 # SConstruct
@@ -97,11 +97,7 @@ scons: done cleaning targets.
 
 http://pyserial.readthedocs.io
 
-* Encapsulates the access for the serial port
-* Access to the port settings through Python properties
-* Support byte sizes, stop bits, parity, RTS/CTS and Xon/Xoff
-* Tools: list_ports, miniterm
-* Python 2 and 3
+Encapsulates the access for the serial port
 
 ```python
 import serial
@@ -112,12 +108,16 @@ print(port.readline())
 port.close()
 ```
 
+list_ports
+
 ```python
 $ python -m serial.tools.list_ports
 /dev/ttyUSB0        
 /dev/ttyUSB1        
 2 ports found
 ```
+
+miniterm
 
 ```python
 $ python -m serial.tools.miniterm /dev/ttyUSB1
@@ -131,12 +131,7 @@ $ python -m serial.tools.miniterm /dev/ttyUSB1
 
 http://doc.pytest.org
 
-* Testing framework
-* Assert statements
-* Auto-discovery of tests
-* Compatible with unittest and nose
-* +150 external plugins
-
+The testing framework
 
 ```python
 # content of test_sample.py
@@ -172,10 +167,7 @@ test_sample.py:6: AssertionError
 
 https://tox.readthedocs.io
 
-* Generic virtualenv management and test command line tool
-* checking your package installs correctly with different Python versions and interpreters
-* running your tests in each of the environments, configuring your test tool of choice
-* acting as a frontend to Continuous Integration servers, greatly reducing boilerplate and merging CI and shell-based testing.
+Generic virtualenv management and test command line tool
 
 ```
 example
@@ -193,6 +185,8 @@ envlist = py27, py35
 deps=pytest
 commands=py.test
 ```
+
+</br>
 
 ```
 $ tox

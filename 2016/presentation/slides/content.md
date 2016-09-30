@@ -1,4 +1,31 @@
-# 1. Introduction
+
+<!-- .slide: data-background="resources/0.cover/background.png" -->
+
+<h2 style="color: #EEEEEE;">
+  <ol>
+    <li>Introduction</li>
+    </br>
+    <li>Open Source Toolchains</li>
+    </br>
+    <li>Open Source Boards</li>
+    </br>
+    <li>Open Source IDEs</li>
+    </br>
+    <li>Python</li>
+  </ol>
+</h2>
+
+<!-- .slide: data-transition="slide-in fade-out" -->
+
+---
+
+<!-- .slide: data-background="resources/0.cover/background.png" -->
+
+<h1 style="color: #EEEEEE;">
+  1. Introduction
+</h1>
+
+<!-- .slide: data-transition="slide-in fade-out" -->
 
 ---
 
@@ -14,7 +41,13 @@ TODO:
 
 ---
 
-# 2. Open Source Toolchains
+<!-- .slide: data-background="resources/0.cover/background.png" -->
+
+<h1 style="color: #EEEEEE;">
+  2. Open Source Toolchains
+</h1>
+
+<!-- .slide: data-transition="slide-in fade-out" -->
 
 ---
 
@@ -27,7 +60,7 @@ TODO:
 * *Architecture*: Motorola 68000
 * *Website*: https://gcc.gnu.org/
 
-![](resources/2.toolchains/mc68000.jpg)
+![](resources/2.toolchains/mc68000.png)
 
 ---
 
@@ -89,7 +122,6 @@ main:
 0000020a: 00000000 00000000 00000000 00000000 00000000 00000000
 00000210: 00000000 01100101 01111000 01100001 01101101 01110000
 00000216: 01101100 01100101 00101110 01100011 00000000 01101101
-0000021c: 01100001 01101001 01101110 00000000 01110011 01110101
 ```
 
 ---
@@ -155,24 +187,28 @@ set_io LED 99
 00000000: 11111111 00000000 00000000 11111111 01111110 10101010
 00000006: 10011001 01111110 01010001 00000000 00000001 00000101
 0000000c: 10010010 00000000 00100000 01100010 00000001 01001011
-00000012: 01110010 00000000 10010000 10000010 00000000 00000000
-00000018: 00010001 00000000 00000001 00000001 00000000 00000000
 ```
 
 ---
 
 ## Simulation
 
+</br>
+
 * Icarus Verilog: http://iverilog.icarus.com
 * GTKWave: http://gtkwave.sourceforge.net
-
-</br>
 
 ![](resources/2.toolchains/gtkwave-simulation.png)
 
 ---
 
-# 3. Open Source Boards
+<!-- .slide: data-background="resources/0.cover/background.png" -->
+
+<h1 style="color: #EEEEEE;">
+  3. Open Source Boards
+</h1>
+
+<!-- .slide: data-transition="slide-in fade-out" -->
 
 ---
 
@@ -280,7 +316,13 @@ set_io LED 99
 
 ---
 
-# 4. Open Source IDEs
+<!-- .slide: data-background="resources/0.cover/background.png" -->
+
+<h1 style="color: #EEEEEE;">
+  4. Open Source IDEs
+</h1>
+
+<!-- .slide: data-transition="slide-in fade-out" -->
 
 ---
 
@@ -374,7 +416,13 @@ set_io LED 99
 
 ---
 
-# 5. Python
+<!-- .slide: data-background="resources/0.cover/background.png" -->
+
+<h1 style="color: #EEEEEE;">
+  5. Python
+</h1>
+
+<!-- .slide: data-transition="slide-in fade-out" -->
 
 ---
 
