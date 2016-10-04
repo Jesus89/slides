@@ -29,7 +29,7 @@
 
 ---
 
-# What is a microcontroller?
+## What is a microcontroller?
 
 "A small computer on a single integrated circuit". Created by Intel in the 1970's
 
@@ -37,13 +37,13 @@
 
 ---
 
-# Microcontroller internals
+## Microcontroller internals
 
 ![](resources/1.introduction/uC-internals.png)
 
 ---
 
-# Microcontroller workflow
+## Microcontroller workflow
 
 It executes specific machine language instructions one by one
 
@@ -54,11 +54,10 @@ It executes specific machine language instructions one by one
 
 </br>
 </br>
-</br>
 
 ---
 
-# Microcontroller vs Processor
+## Microcontroller vs Processor
 
 </br>
 </br>
@@ -79,7 +78,11 @@ It executes specific machine language instructions one by one
 
 ---
 
-# What is an FPGA?
+# FPGA time!
+
+---
+
+## What is an FPGA?
 
 "A reconfigurable digital integrated circuit". Created by Xilinx in the 1980's
 
@@ -91,7 +94,7 @@ It executes specific machine language instructions one by one
 
 ---
 
-# FPGA internals
+## FPGA internals
 
 Interconnected Logic Blocks, Memory Blocks and I/O ports
 
@@ -101,9 +104,9 @@ Interconnected Logic Blocks, Memory Blocks and I/O ports
 
 ---
 
-# FPGA workflow
+## FPGA workflow
 
-The bitstream defines a new real circuit in the FPGA
+The bit stream defines a new real circuit in the FPGA
 
 </br>
 </br>
@@ -121,6 +124,15 @@ The bitstream defines a new real circuit in the FPGA
   2. Open Source Toolchains
 </h1>
 
+<h3 style="color: #EEEEEE;">
+  </br>
+  <ul>
+    <li>GCC</li>
+    </br>
+    <li>IceStorm</li>
+  </ul>
+</h3>
+
 <!-- .slide: data-transition="slide-in fade-out" -->
 
 ---
@@ -135,6 +147,8 @@ The bitstream defines a new real circuit in the FPGA
 * *Website*: https://gcc.gnu.org/
 
 ![](resources/2.toolchains/mc68000.png)
+
+Created by *RMS* and the *GNU team*
 
 ---
 
@@ -198,6 +212,12 @@ main:
 
 ---
 
+## FPGAs toolchains are privative :( <!-- .element: class="fragment" data-fragment-index="1" -->
+
+## ...until now! :D  <!-- .element: class="fragment" data-fragment-index="2" -->
+
+---
+
 ## IceStorm
 [2015, 2016)
 
@@ -210,6 +230,10 @@ main:
 </br>
 
 ![](resources/2.toolchains/lattice-iCE40.png)
+
+</br>
+
+Created by *Clifford Wolf* through reverse engineering
 
 ---
 
@@ -263,6 +287,27 @@ set_io LED 99
 
 ---
 
+## More storms coming
+
+* New Yosys front-ends:
+  * VHDL
+  * ...
+
+* New FPGAs support:
+  * Silego GreenPack4
+  * Xilinx 7-Series
+  * iCE40 Ultralite
+  * ...
+
+
+</br>
+</br>
+</br>
+</br>
+</br>
+
+---
+
 ## Simulation
 
 </br>
@@ -307,6 +352,13 @@ set_io LED 99
 * *Sources*: https://github.com/nodemcu
 
 ---
+
+# Open FPGAs
+
+## "Usable by Open Source Tools"  <!-- .element: class="fragment" data-fragment-index="1" -->
+
+---
+
 
 ## Lattice Development Kits
 
@@ -398,28 +450,6 @@ set_io LED 99
 
 ---
 
-## Emacs
-
-[1976, 2016)
-
-![](resources/4.ides/emacs-min.png)
-
-* *Written in*: **Lisp**, **C**
-* *Sources*: https://github.com/emacs-mirror/emacs
-
----
-
-## Vim
-
-[1991, 2016)
-
-![](resources/4.ides/vim-min.png)
-
-* *Written in*: **C**
-* *Sources*: https://github.com/vim/vim
-
----
-
 ## Arduino IDE
 
 [2005, 2016)
@@ -461,6 +491,10 @@ set_io LED 99
 
 * *Written in*: **Javascript, HTML**
 * *Sources*: https://github.com/platformio/platformio-atom-ide
+
+---
+
+# Open FPGA IDEs
 
 ---
 
