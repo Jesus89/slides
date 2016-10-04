@@ -31,13 +31,87 @@
 
 # What is a microcontroller?
 
-TODO:
+"A small computer on a single integrated circuit". Created by Intel in the 1970's
+
+![](resources/1.introduction/uC-intro.png)
+
+---
+
+# Microcontroller internals
+
+![](resources/1.introduction/uC-internals.png)
+
+---
+
+# Microcontroller workflow
+
+It executes specific machine language instructions one by one
+
+</br>
+</br>
+
+![](resources/1.introduction/uC-workflow.png)
+
+</br>
+</br>
+</br>
+
+---
+
+# Microcontroller vs Processor
+
+</br>
+</br>
+
+|              |   Microcontroller   |  Processor        |
+|:------------:|:-------------------:|:-----------------:|
+| Applications | Specialized devices | General computing |
+| Speed        | Relative slow (MHz) | Very fast (GHz)   |
+| Cost         | Low (~$1)           | High (~$100)      |
+| Consumption  | Low (1-100mW)       | High (1-100W)     |
+| Vendors      | *Atmel, Microchip, TI, ST* | *Intel, AMD, ARM* |
+| | |
+
+</br>
+</br>
+</br>
+</br>
 
 ---
 
 # What is an FPGA?
 
-TODO:
+"A reconfigurable digital integrated circuit". Created by Xilinx in the 1980's
+
+</br>
+
+![](resources/1.introduction/FPGA-intro.png)
+
+</br>
+
+---
+
+# FPGA internals
+
+Interconnected Logic Blocks, Memory Blocks and I/O ports
+
+<img style="float: right;" src="resources/1.introduction/FPGA-config.gif">
+
+![](resources/1.introduction/FPGA-internals.png)
+
+---
+
+# FPGA workflow
+
+The bitstream defines a new real circuit in the FPGA
+
+</br>
+</br>
+
+![](resources/1.introduction/FPGA-workflow.png)
+
+</br>
+</br>
 
 ---
 
@@ -88,8 +162,6 @@ New compilers: clang/LLVM [2007, 2016)/[2003, 2016)
 
 [examples/microcontroller/gcc]()
 
-</br>
-
 ```c
 #define A 1
 #define B 2
@@ -105,7 +177,7 @@ void main() {
 }
 ```
 
-```as
+```x86asm
 main:
       movl    $2, %esi
       movl    $1, %edi
@@ -153,13 +225,13 @@ main:
 
 </br>
 
-```v
+```verilog
 module led(output wire LED);
   assign LED = 1'b1;
 endmodule
 ```
 
-```
+```bash
 .model led
 .inputs
 .outputs LED
@@ -173,17 +245,17 @@ endmodule
 
 ```
 
-```v
+```verilog
 set_io LED 99
 ```
 
-```
+```bash
 .logic_tile 12 12
 000000000000000000000000000000000000000010000000000000
 000000000000000000000000000000000000000000000000000000
 ```
 
-```
+```bash
 00000000: 11111111 00000000 00000000 11111111 01111110 10101010
 00000006: 10011001 01111110 01010001 00000000 00000001 00000101
 0000000c: 10010010 00000000 00100000 01100010 00000001 01001011
@@ -264,7 +336,7 @@ set_io LED 99
 
 </br>
 
-<iframe width="620" height="350" src="https://www.youtube.com/embed/urjyWhCpMk4">
+<iframe width="620" height="350" src="https://www.youtube.com/embed/urjyWhCpMk4?rel=0&showinfo=0">
 </iframe>
 
 </br>
@@ -292,7 +364,7 @@ set_io LED 99
 
 </br>
 
-<iframe width="620" height="350" src="https://www.youtube.com/embed/6I5Z70eewrg">
+<iframe width="620" height="350" src="https://www.youtube.com/embed/6I5Z70eewrg?rel=0&showinfo=0">
 </iframe>
 
 </br>
@@ -326,6 +398,16 @@ set_io LED 99
 
 ---
 
+## Emacs
+
+[1976, 2016)
+
+![](resources/4.ides/emacs-min.png)
+
+* *Written in*: **Lisp**, **C**
+* *Sources*: https://github.com/emacs-mirror/emacs
+
+---
 
 ## Vim
 
@@ -335,7 +417,6 @@ set_io LED 99
 
 * *Written in*: **C**
 * *Sources*: https://github.com/vim/vim
-
 
 ---
 
@@ -400,7 +481,7 @@ set_io LED 99
 
 </br>
 
-<iframe width="700" height="395" src="https://www.youtube.com/embed/OWnVCjo7N9Y?start=52">
+<iframe width="700" height="395" src="https://www.youtube.com/embed/OWnVCjo7N9Y?start=52?rel=0&showinfo=0">
 </iframe>
 
 ---
@@ -485,5 +566,5 @@ set_io LED 99
 
 </br>
 
-<iframe width="700" height="395" src="https://www.youtube.com/embed/UJ6-_42P5BE">
+<iframe width="700" height="395" src="https://www.youtube.com/embed/UJ6-_42P5BE?rel=0&showinfo=0">
 </iframe>

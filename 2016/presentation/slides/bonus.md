@@ -142,7 +142,7 @@ def test_answer():
     assert func(3) == 5
 ```
 
-```
+```bash
 $ pytest
 ============== test session starts ===============
 collected 1 items
@@ -176,7 +176,7 @@ tests
 tox.ini
 ```
 
-```
+```ini
 # content of: tox.ini
 [tox]
 envlist = py27, py35
@@ -188,7 +188,7 @@ commands=py.test
 
 </br>
 
-```
+```bash
 $ tox
 [...]
 _____________________ summary ______________________
