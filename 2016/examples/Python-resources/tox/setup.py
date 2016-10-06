@@ -4,6 +4,6 @@ from setuptools import setup
 
 setup(
     name='example',
-    version='0.0.0.1',
+    version='1.0.0',
     packages=['example']
 )

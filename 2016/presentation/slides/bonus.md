@@ -6,11 +6,13 @@
 
 ![](resources/6.bonus/python-logo-mini.png)
 
-</br>
+<br>
 
 <h3 style="color: #EEEEEE;">
   click - SCons - pySerial - pytest - tox
 </h3>
+
+[examples/Python-resources]()
 
 <!-- .slide: data-transition="slide-in fade-out" -->
 
@@ -23,10 +25,12 @@ http://click.pocoo.org
 Command Line Interface Creation Kit
 
 ```python
+# content of hello.py
+
 import click
 
 @click.command()
-@click.option('--count', default=1, help='Number of Hello! messages.')
+@click.option('-c', '--count', default=1, help='Number of Hello! messages.')
 def hello(count):
     for x in range(count):
         click.echo('Hello!')
@@ -35,23 +39,19 @@ if __name__ == '__main__':
     hello()
 ```
 
-</br>
-
-```bash
+```AsciiDoc
 $ python hello.py --help
 Usage: hello.py [OPTIONS]
 
 Options:
-  --count INTEGER  Number of Hello! messages.
-  --help           Show this message and exit.
-
+  -c, --count INTEGER  Number of Hello! messages.
+  --help               Show this message and exit.
 ```
 
-```bash
+```AsciiDoc
 $ python hello.py --count 2
 Hello!
 Hello!
-
 ```
 
 ---
@@ -65,11 +65,11 @@ A software construction tool. Cross-platform substitute for the classic Make uti
 Python 2 (+3 support in >2.5.0)
 
 ```python
-# SConstruct
+# content of SConstruct
 Program(['example.c', 'math.c'])
 ```
 
-```bash
+```AsciiDoc
 $ scons
 scons: Reading SConscript files ...
 scons: done reading SConscript files.
@@ -80,7 +80,7 @@ gcc -o example example.o math.o
 scons: done building targets.
 ```
 
-```bash
+```AsciiDoc
 $ scons -c
 scons: Reading SConscript files ...
 scons: done reading SConscript files.
@@ -108,18 +108,18 @@ print(port.readline())
 port.close()
 ```
 
-list_ports
+#### list_ports
 
-```python
+```AsciiDoc
 $ python -m serial.tools.list_ports
 /dev/ttyUSB0        
 /dev/ttyUSB1        
 2 ports found
 ```
 
-miniterm
+#### miniterm
 
-```python
+```AsciiDoc
 $ python -m serial.tools.miniterm /dev/ttyUSB1
 --- Miniterm on /dev/ttyUSB1  9600,8,N,1 ---
 --- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---
@@ -135,6 +135,7 @@ The testing framework
 
 ```python
 # content of test_sample.py
+
 def func(x):
     return x + 1
 
@@ -142,7 +143,7 @@ def test_answer():
     assert func(3) == 5
 ```
 
-```bash
+```AsciiDoc
 $ pytest
 ============== test session starts ===============
 collected 1 items
@@ -157,7 +158,7 @@ __________________ test_answer ___________________
 E       assert 4 == 5
 E        +  where 4 = func(3)
 
-test_sample.py:6: AssertionError
+test_sample.py:7: AssertionError
 ============ 1 failed in 0.01 seconds ============
 ```
 
@@ -170,14 +171,19 @@ https://tox.readthedocs.io
 Generic virtualenv management and test command line tool
 
 ```
-example
-setup.py
-tests
-tox.ini
+├── example
+│   ├── __init__.py
+│   └── math.py
+├── setup.py
+├── tests
+│   ├── __init__.py
+│   └── test_example.py
+└── tox.ini
 ```
 
 ```ini
 # content of: tox.ini
+
 [tox]
 envlist = py27, py35
 
@@ -186,9 +192,7 @@ deps=pytest
 commands=py.test
 ```
 
-</br>
-
-```bash
+```AsciiDoc
 $ tox
 [...]
 _____________________ summary ______________________

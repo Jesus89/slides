@@ -1,0 +1,21 @@
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.vcenter-left {
+  left: -30%;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.vcenter-right {
+  right: -30%;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}

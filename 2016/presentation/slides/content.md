@@ -4,14 +4,14 @@
 <h2 style="color: #EEEEEE;">
   <ol>
     <li>Introduction</li>
-    </br>
+    <br>
     <li>Open Source Toolchains</li>
-    </br>
+    <br>
     <li>Open Source Boards</li>
-    </br>
+    <br>
     <li>Open Source IDEs</li>
-    </br>
-    <li>Python</li>
+    <br>
+    <li>Python: the universal glue</li>
   </ol>
 </h2>
 
@@ -47,20 +47,20 @@
 
 It executes specific machine language instructions one by one
 
-</br>
-</br>
+<br>
+<br>
 
 ![](resources/1.introduction/uC-workflow.png)
 
-</br>
-</br>
+<br>
+<br>
 
 ---
 
 ## Microcontroller vs Processor
 
-</br>
-</br>
+<br>
+<br>
 
 |              |   Microcontroller   |  Processor        |
 |:------------:|:-------------------:|:-----------------:|
@@ -71,10 +71,10 @@ It executes specific machine language instructions one by one
 | Vendors      | *Atmel, Microchip, TI, ST* | *Intel, AMD, ARM* |
 | | |
 
-</br>
-</br>
-</br>
-</br>
+<br>
+<br>
+<br>
+<br>
 
 ---
 
@@ -86,11 +86,11 @@ It executes specific machine language instructions one by one
 
 "A reconfigurable digital integrated circuit". Created by Xilinx in the 1980's
 
-</br>
+<br>
 
 ![](resources/1.introduction/FPGA-intro.png)
 
-</br>
+<br>
 
 ---
 
@@ -98,7 +98,10 @@ It executes specific machine language instructions one by one
 
 Interconnected Logic Blocks, Memory Blocks and I/O ports
 
-<img style="float: right;" src="resources/1.introduction/FPGA-config.gif">
+<figure style="float: right;">
+  <img  src="resources/1.introduction/FPGA-config.gif">
+  <figcaption>(GIF created by *Juan González*)</figcaption>
+</figure>
 
 ![](resources/1.introduction/FPGA-internals.png)
 
@@ -108,13 +111,13 @@ Interconnected Logic Blocks, Memory Blocks and I/O ports
 
 The bit stream defines a new real circuit in the FPGA
 
-</br>
-</br>
+<br>
+<br>
 
 ![](resources/1.introduction/FPGA-workflow.png)
 
-</br>
-</br>
+<br>
+<br>
 
 ---
 
@@ -125,10 +128,10 @@ The bit stream defines a new real circuit in the FPGA
 </h1>
 
 <h3 style="color: #EEEEEE;">
-  </br>
+  <br>
   <ul>
     <li>GCC</li>
-    </br>
+    <br>
     <li>IceStorm</li>
   </ul>
 </h3>
@@ -140,7 +143,7 @@ The bit stream defines a new real circuit in the FPGA
 ## GNU C Compiler
 (1987)
 
-</br>
+<br>
 
 * *Language*: **C**
 * *Architecture*: Motorola 68000
@@ -155,14 +158,14 @@ Created by *RMS* and the *GNU team*
 ## GNU Compiler Collection
 [1987, 2016)
 
-</br>
+<br>
 
 * *Languages*: **C, C++, Java, Ada, Objective-C, Fortran, Go ...**
 * *Architectures*: ARM, AVR, AMD64, IA-32, PIC, Xtensa, **RISC-V**, ...
 
 ![](resources/2.toolchains/gcc-internals.jpg)
 
-New compilers: clang/LLVM [2007, 2016)/[2003, 2016)
+New compilers: **Clang/LLVM** [2007, 2016)/[2003, 2016)
 
 ---
 
@@ -175,6 +178,8 @@ New compilers: clang/LLVM [2007, 2016)/[2003, 2016)
 ## GCC flow - example
 
 [examples/microcontroller/gcc]()
+
+<br>
 
 ```c
 #define A 1
@@ -204,7 +209,7 @@ main:
       call    printf
 ```
 
-```
+```AsciiDoc
 0000020a: 00000000 00000000 00000000 00000000 00000000 00000000
 00000210: 00000000 01100101 01111000 01100001 01101101 01110000
 00000216: 01101100 01100101 00101110 01100011 00000000 01101101
@@ -212,26 +217,26 @@ main:
 
 ---
 
-## FPGAs toolchains are privative :( <!-- .element: class="fragment" data-fragment-index="1" -->
+## All FPGA toolchains are privative :( <!-- .element: class="fragment" data-fragment-index="1" -->
 
-## ...until now! :D  <!-- .element: class="fragment" data-fragment-index="2" -->
+## ...until now! :)  <!-- .element: class="fragment" data-fragment-index="2" -->
 
 ---
 
 ## IceStorm
 [2015, 2016)
 
-</br>
+<br>
 
 * *Language*: **Verilog**
 * *FPGA*: Lattice iCE40
 * *Website*: http://www.clifford.at/icestorm/
 
-</br>
+<br>
 
 ![](resources/2.toolchains/lattice-iCE40.png)
 
-</br>
+<br>
 
 Created by *Clifford Wolf* through reverse engineering
 
@@ -247,7 +252,7 @@ Created by *Clifford Wolf* through reverse engineering
 
 [examples/FPGA/icestorm]()
 
-</br>
+<br>
 
 ```verilog
 module led(output wire LED);
@@ -255,7 +260,7 @@ module led(output wire LED);
 endmodule
 ```
 
-```bash
+```
 .model led
 .inputs
 .outputs LED
@@ -279,7 +284,7 @@ set_io LED 99
 000000000000000000000000000000000000000000000000000000
 ```
 
-```bash
+```AsciiDoc
 00000000: 11111111 00000000 00000000 11111111 01111110 10101010
 00000006: 10011001 01111110 01010001 00000000 00000001 00000101
 0000000c: 10010010 00000000 00100000 01100010 00000001 01001011
@@ -289,9 +294,17 @@ set_io LED 99
 
 ## More storms coming
 
+<br>
+
+<img style="float: left;" src="resources/2.toolchains/clifford-project-x-ray.png">
+
+<br>
+
 * New Yosys front-ends:
   * VHDL
   * ...
+
+<br>
 
 * New FPGAs support:
   * Silego GreenPack4
@@ -299,18 +312,15 @@ set_io LED 99
   * iCE40 Ultralite
   * ...
 
-
-</br>
-</br>
-</br>
-</br>
-</br>
+<br>
+<br>
+<br>
 
 ---
 
 ## Simulation
 
-</br>
+<br>
 
 * Icarus Verilog: http://iverilog.icarus.com
 * GTKWave: http://gtkwave.sourceforge.net
@@ -326,6 +336,13 @@ set_io LED 99
 </h1>
 
 <!-- .slide: data-transition="slide-in fade-out" -->
+
+---
+
+# Open Hardware
+
+## Board's schematics are Open Source  <!-- .element: class="fragment" data-fragment-index="1" -->
+## &micro;Controller's schematics are still privative  <!-- .element: class="fragment" data-fragment-index="2" -->
 
 ---
 
@@ -355,18 +372,19 @@ set_io LED 99
 
 # Open FPGAs
 
-## "Usable by Open Source Tools"  <!-- .element: class="fragment" data-fragment-index="1" -->
+## Usable with Open Source Tools  <!-- .element: class="fragment" data-fragment-index="1" -->
+## FPGA's schematics are still privative  <!-- .element: class="fragment" data-fragment-index="2" -->
 
 ---
 
 
 ## Lattice Development Kits
 
-</br>
+<br>
 
 ![](resources/3.boards/lattice.png)
 
-* *FPGA*: iCE40
+* *FPGA*: iCE40 family
 * **No sources available**
 
 ---
@@ -377,7 +395,8 @@ set_io LED 99
 
 ![](resources/3.boards/icoboard-min.png)
 
-* *FPGA*: iCE40-HK8K-CT256
+* Raspberry Pi HAT
+* Created by *icoTC team*
 * *Sources*: http://icoboard.org
 
 ---
@@ -386,12 +405,12 @@ set_io LED 99
 
 (2016)
 
-</br>
+<br>
 
 <iframe width="620" height="350" src="https://www.youtube.com/embed/urjyWhCpMk4?rel=0&showinfo=0">
 </iframe>
 
-</br>
+<br>
 
 
 * *Processor*: https://github.com/cliffordwolf/picorv32
@@ -405,7 +424,8 @@ set_io LED 99
 
 ![](resources/3.boards/icezum-min.png)
 
-* *FPGA*: iCE40-HK1K-TQ144
+* FPGA board for makers
+* Created by *Eladio Delgado* and *Juan González*
 * *Sources*: https://github.com/FPGAwars/icezum
 
 ---
@@ -414,12 +434,12 @@ set_io LED 99
 
 (2016)
 
-</br>
+<br>
 
 <iframe width="620" height="350" src="https://www.youtube.com/embed/6I5Z70eewrg?rel=0&showinfo=0">
 </iframe>
 
-</br>
+<br>
 
 * *Examples*: https://github.com/FPGAwars/FPGA-peripherals
 
@@ -427,7 +447,7 @@ set_io LED 99
 
 ### More Open FPGA Boards
 
-</br>
+<br>
 
 |           |                                         |
 |-----------|-----------------------------------------|
@@ -509,17 +529,6 @@ set_io LED 99
 
 ---
 
-## Icestudio - demo
-
-(2016)
-
-</br>
-
-<iframe width="700" height="395" src="https://www.youtube.com/embed/OWnVCjo7N9Y?start=52?rel=0&showinfo=0">
-</iframe>
-
----
-
 ## Apio IDE
 
 (2016)
@@ -531,10 +540,14 @@ set_io LED 99
 
 ---
 
+# Demo
+
+---
+
 <!-- .slide: data-background="resources/0.cover/background.png" -->
 
 <h1 style="color: #EEEEEE;">
-  5. Python
+  5. Python: the universal glue
 </h1>
 
 <!-- .slide: data-transition="slide-in fade-out" -->
@@ -547,17 +560,17 @@ set_io LED 99
 
 ![](resources/5.python/platformio-logo.png)
 
-|                           |
-|---------------------------|
-| 19 Development Platforms  |
-| 148 Microcontroller Units |
-| 321 Embedded Boards       |
-| 1.159 Libraries           |
-| 5.837 Library Examples    |
-|                           |
+|       |                       |
+|------:|-----------------------|
+| 19    | Development Platforms |
+| 323   | Embedded Boards       |
+| 1.181 | Libraries             |
+| 5.968 | Library Examples      |
+|       |                       |
 
-</br>
+<br>
 
+* Created by *Ivan Kravets*
 * *Written in*: **Python**
 * *Sources*: https://github.com/platformio/platformio
 
@@ -575,20 +588,20 @@ set_io LED 99
 
 (2016)
 
-</br>
+<br>
 
-|               |                                                             |
-|---------------|-------------------------------------------------------------|
-| Packages      | icestorm, iverilog, scons, system, examples                 |
-| Architectures | linux (x86_64, i386, armv7l, aarch64), windows, darwin      |
-| Boards        | Icezum, Go board, icoBOARD, iCEstick, iCE40-HX8K            |
-| Commands      | build, verify, clean, upload, time, sim                     |
-|               |                                                             |
+|                |                                                             |
+|---------------:|-------------------------------------------------------------|
+| Packages       | icestorm, iverilog, scons, system, examples                 |
+| Architectures  | linux (x86_64, i686, armv7l, aarch64), windows, darwin      |
+| Boards         | Icezum, Go board, icoBOARD, iCEstick, iCE40-HX8K, Cat board |
+| Commands       | build, verify, clean, upload, time, sim                     |
+|                |                                                             |
 
-</br>
+<br>
 
+* **Focused on open FPGA development**
 * *Based on PlatformIO*
-* *Focused on open FPGA development*
 * *Written in*: **Python**
 * *Sources*: https://github.com/FPGAwars/apio
 
@@ -598,7 +611,13 @@ set_io LED 99
 
 (2016)
 
-</br>
+<br>
 
 <iframe width="700" height="395" src="https://www.youtube.com/embed/UJ6-_42P5BE?rel=0&showinfo=0">
 </iframe>
+
+---
+
+## Development
+
+TODO: image

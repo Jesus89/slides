@@ -11,20 +11,27 @@
 
 ![](resources/7.end/summary.svg)
 
-TODO:
+---
+
+## FPGAwars community
+
+A community to **share knowledge** about **open FPGAs**
+
+![](resources/7.end/FPGAwars-logo-min.png)
+
+* Language: spanish
+* Members: ~170
+* Website: http://FPGAwars.github.io
+* GitHub: https://github.com/FPGAwars
 
 ---
 
-# FPGAwars
+## World Technological Heritage
 
-![](resources/7.end/FPGAwars-logo.png)
-
-TODO:
-
----
-
-# World Technological Heritage
+All our work **belongs to everybody** and is part of the Technological Heritage
 
 ![](resources/7.end/wth-logo.svg)
 
-TODO:
+* **Free Software** released under GPL
+* **Open Hardware** created with Open Tools
+* **Documentation** released under CC BY-SA

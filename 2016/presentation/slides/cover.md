@@ -1,25 +1,30 @@
 <!-- .slide: data-background="resources/0.cover/background.png" -->
 
-</br></br></br>
+<br><br>
 
 <h1 style="color: #EEEEEE;">
   Python, &micro;Controllers and FPGAs
 </h1>
 
-<h3 style="color: #EEEEEE;">
-  PyConES 2016
+<br><br><br><br><br>
+
+<h3>
+  <i style="color: #EEEEEE;">
+    Jesús Arroyo Torrens
+  </i>
 </h3>
-
-</br></br></br></br></br>
-
-<i style="color: #EEEEEE;">
-  Created by Jesús Arroyo Torrens
-<i>
 
 <div style="color: #77C7F7;">
   \#FPGAwars
 </div>
 
-<div class="row" style="float: right; transform: scale(0.3, 0.3); -ms-transform: scale(0.3, 0.3); -webkit-transform: scale(0.3, 0.3);">
-  ![](resources/0.cover/by-sa.png)
+<br><br>
+
+<div class="vcenter-left">
+  <h3 class="left" style="color: #EEEEEE;">
+    PyConES 2016
+  </h3>
+</div>
+<div class="vcenter-right">
+  <img class="right" src="resources/0.cover/by-sa-min.png">
 </div>
