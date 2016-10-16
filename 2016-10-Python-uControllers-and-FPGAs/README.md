@@ -11,11 +11,11 @@ To use the source files, you will need to have npm installed globally. To start:
 
 ## Author
 
-* [Jesús Arroyo Torrens](https://github.com/Jesus89)
+[Jesús Arroyo Torrens](https://github.com/Jesus89)
 
 ## License
 
-* [GPLv2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+[Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)
 
 ## Credits
 
