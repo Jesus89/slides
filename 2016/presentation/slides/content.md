@@ -127,14 +127,14 @@ The bit stream defines a new real circuit in the FPGA
   2. Open Source Toolchains
 </h1>
 
-<h3 style="color: #EEEEEE;">
+<!--<h3 style="color: #EEEEEE;">
   <br>
   <ul>
     <li>GCC</li>
     <br>
     <li>IceStorm</li>
   </ul>
-</h3>
+</h3>-->
 
 <!-- .slide: data-transition="slide-in fade-out" -->
 
@@ -292,6 +292,17 @@ set_io LED 99
 
 ---
 
+## Simulation
+
+<br>
+
+* Icarus Verilog: http://iverilog.icarus.com
+* GTKWave: http://gtkwave.sourceforge.net
+
+![](resources/2.toolchains/gtkwave-simulation.png)
+
+---
+
 ## More storms coming
 
 <br>
@@ -315,17 +326,6 @@ set_io LED 99
 <br>
 <br>
 <br>
-
----
-
-## Simulation
-
-<br>
-
-* Icarus Verilog: http://iverilog.icarus.com
-* GTKWave: http://gtkwave.sourceforge.net
-
-![](resources/2.toolchains/gtkwave-simulation.png)
 
 ---
 
@@ -518,17 +518,6 @@ set_io LED 99
 
 ---
 
-## Icestudio
-
-(2016)
-
-![](resources/4.ides/icestudio-min.png)
-
-* *Written in*: **Javascript, HTML**
-* *Sources*: https://github.com/FPGAwars/icestudio
-
----
-
 ## Apio IDE
 
 (2016)
@@ -540,7 +529,14 @@ set_io LED 99
 
 ---
 
-# Demo
+## Icestudio
+
+(2016)
+
+![](resources/4.ides/icestudio-min.png)
+
+* *Written in*: **Javascript, HTML**
+* *Sources*: https://github.com/FPGAwars/icestudio
 
 ---
 
@@ -563,14 +559,15 @@ set_io LED 99
 |       |                       |
 |------:|-----------------------|
 | 19    | Development Platforms |
-| 323   | Embedded Boards       |
-| 1.181 | Libraries             |
-| 5.968 | Library Examples      |
+| 348   | Embedded Boards       |
+| 1.193 | Libraries             |
+| 6.022 | Library Examples      |
 |       |                       |
 
 <br>
 
 * Created by *Ivan Kravets*
+* *Front-end*: PlatformIO IDE, Eclipse, ...
 * *Written in*: **Python**
 * *Sources*: https://github.com/platformio/platformio
 
@@ -584,11 +581,11 @@ set_io LED 99
 
 ---
 
-![](resources/5.python/apio-logo-min.png)
+## Apio
 
 (2016)
 
-<br>
+![](resources/5.python/apio-logo-min.png)
 
 |                |                                                             |
 |---------------:|-------------------------------------------------------------|
@@ -602,22 +599,26 @@ set_io LED 99
 
 * **Focused on open FPGA development**
 * *Based on PlatformIO*
+* *Front-ends*: Icestudio, Apio IDE
 * *Written in*: **Python**
 * *Sources*: https://github.com/FPGAwars/apio
 
 ---
 
-## Apio - demo
-
-(2016)
+## PIO Lattice iCE40 support
 
 <br>
 
-<iframe width="700" height="395" src="https://www.youtube.com/embed/UJ6-_42P5BE?rel=0&showinfo=0">
-</iframe>
+![](resources/5.python/apio-pio.png)
+
+1. Initial FPGA support (\#480)
+2. Apio created. Based on PlatformIO
+3. First release with FPGA support (2.9.0)
+4. Fully decentralized architecture (3.0.0)
+5. Contributions to platform-lattice_ice40
 
 ---
 
-## Development
+# Demo
 
-TODO: image
+![](resources/5.python/demo-stack.png)

@@ -1,6 +1,6 @@
 <!-- .slide: data-background="resources/0.cover/background.png" -->
 
-<br><br>
+<br>
 
 <h1 style="color: #EEEEEE;">
   Python, &micro;Controllers and FPGAs
@@ -18,12 +18,12 @@
   \#FPGAwars
 </div>
 
-<br><br>
+<br><br><br>
 
 <div class="vcenter-left">
-  <h3 class="left" style="color: #EEEEEE;">
-    PyConES 2016
-  </h3>
+  <h4 class="left" style="color: #EEEEEE;">
+    October 2016
+  </h4>
 </div>
 <div class="vcenter-right">
   <img class="right" src="resources/0.cover/by-sa-min.png">
