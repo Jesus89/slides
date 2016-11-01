@@ -1,6 +1,6 @@
 # Slides
 
-* Python, microcontrollers and FPGAs
+* [Python, microcontrollers and FPGAs](https://jesus89.github.io/slides/)
 
 ## Author
 
