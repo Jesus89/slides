@@ -9,14 +9,14 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="121.99013mm"
-   height="77.522469mm"
-   viewBox="0 0 432.24843 274.68594"
+   width="112.59882mm"
+   height="77.870911mm"
+   viewBox="0 0 398.97216 275.92058"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="demo-stack.svg"
-   inkscape:export-filename="/home/jesus/code/PyConEs/2016/presentation/resources/5.python/demo-stack.png"
+   inkscape:export-filename="/home/jesus/code/slides/2016-10-Python-uControllers-and-FPGAs/presentation/resources/5.python/demo-stack.png"
    inkscape:export-xdpi="104.10679"
    inkscape:export-ydpi="104.10679">
   <defs
@@ -104,9 +104,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="239.41621"
-     inkscape:cy="142.66189"
+     inkscape:zoom="0.9899495"
+     inkscape:cx="250.22212"
+     inkscape:cy="-76.015188"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -135,118 +135,63 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-51.92637,-231.43137)">
+     transform="translate(-51.926369,-231.43137)">
     <g
-       id="g6653">
+       id="g4202">
       <g
-         id="g4553">
+         id="g4326">
+        <rect
+           style="opacity:1;fill:#9de8f3;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect4136-3-1"
+           width="179.00002"
+           height="77.14286"
+           x="253.11536"
+           y="249.1479"
+           ry="3.3929238" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:25px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="342.06604"
+           y="297.0394"
+           id="text4138-6-2"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4140-7-7"
+             x="342.06604"
+             y="297.0394"
+             style="fill:#101010;fill-opacity:1">Icestudio</tspan></text>
+      </g>
+      <g
+         id="g4331">
+        <rect
+           style="opacity:1;fill:#f3ee9d;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect4136-6"
+           width="179.00002"
+           height="77.14286"
+           x="69.64286"
+           y="249.1479"
+           ry="3.3929238" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:25px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="159.85698"
+           y="294.6163"
+           id="text4138-6-2-0"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4140-7-7-9"
+             x="159.85698"
+             y="294.6163"
+             style="fill:#101010;fill-opacity:1">Apio IDE</tspan></text>
+      </g>
+      <g
+         id="g4336">
         <g
-           id="g4543"
-           transform="translate(0,-10)">
-          <g
-             id="g4450">
-            <rect
-               style="opacity:1;fill:#c8c8c8;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-               id="rect4136"
-               width="180.06667"
-               height="77.14286"
-               x="69.64286"
-               y="421.2579"
-               ry="3.3929238" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:25px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-               x="159.5175"
-               y="468.76489"
-               id="text4138"
-               sodipodi:linespacing="125%"><tspan
-                 sodipodi:role="line"
-                 id="tspan4140"
-                 x="159.5175"
-                 y="468.76489"
-                 style="fill:#101010;fill-opacity:1">Icestorm</tspan></text>
-          </g>
-          <g
-             transform="translate(-5.6276321,0)"
-             id="g4445">
-            <rect
-               style="opacity:1;fill:#f3b19d;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-               id="rect4136-3"
-               width="180.06667"
-               height="77.14286"
-               x="258.74298"
-               y="421.2579"
-               ry="3.3929238" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:25px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-               x="348.68475"
-               y="466.72632"
-               id="text4138-6"
-               sodipodi:linespacing="125%"><tspan
-                 sodipodi:role="line"
-                 id="tspan4140-7"
-                 x="348.68475"
-                 y="466.72632"
-                 style="fill:#101010;fill-opacity:1">Iverilog</tspan></text>
-          </g>
-        </g>
-        <g
-           id="g4533">
-          <g
-             transform="translate(-5.6276321,0)"
-             id="g4489">
-            <rect
-               style="opacity:1;fill:#9de8f3;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-               id="rect4136-3-1"
-               width="180.06667"
-               height="77.14286"
-               x="258.74298"
-               y="249.1479"
-               ry="3.3929238" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:25px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-               x="348.22699"
-               y="297.0394"
-               id="text4138-6-2"
-               sodipodi:linespacing="125%"><tspan
-                 sodipodi:role="line"
-                 id="tspan4140-7-7"
-                 x="348.22699"
-                 y="297.0394"
-                 style="fill:#101010;fill-opacity:1">Icestudio</tspan></text>
-          </g>
-          <g
-             id="g4494">
-            <rect
-               style="opacity:1;fill:#f3ee9d;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-               id="rect4136-6"
-               width="180.06667"
-               height="77.14286"
-               x="69.64286"
-               y="249.1479"
-               ry="3.3929238" />
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-weight:normal;font-size:25px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-               x="160.3903"
-               y="294.6163"
-               id="text4138-6-2-0"
-               sodipodi:linespacing="125%"><tspan
-                 sodipodi:role="line"
-                 id="tspan4140-7-7-9"
-                 x="160.3903"
-                 y="294.6163"
-                 style="fill:#101010;fill-opacity:1">Apio IDE</tspan></text>
-          </g>
-        </g>
-        <g
-           id="g4520"
-           transform="translate(0,-5)">
+           id="g4259"
+           transform="translate(0,0.61730964)">
           <rect
              ry="3.3929238"
-             y="335.20291"
+             y="330.20291"
              x="69.64286"
              height="77.14286"
              width="363.53915"
@@ -255,22 +200,85 @@
           <text
              sodipodi:linespacing="125%"
              id="text4138-3"
-             y="380.67133"
+             y="375.67133"
              x="251.99228"
              style="font-style:normal;font-weight:normal;font-size:25px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              xml:space="preserve"><tspan
-               y="380.67133"
+               y="375.67133"
                x="251.99228"
                id="tspan4140-6"
                sodipodi:role="line"
                style="fill:#101010;fill-opacity:1">Apio</tspan></text>
         </g>
       </g>
-      <path
-         inkscape:connector-curvature="0"
-         id="path4577"
-         d="m 458.69278,486.45202 0,-230.81986"
-         style="fill:none;fill-rule:evenodd;stroke:#505050;stroke-width:3.00000048;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)" />
+      <g
+         transform="translate(0,1.2346535)"
+         id="g4220">
+        <rect
+           style="opacity:1;fill:#c8c8c8;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect4136"
+           width="118.82001"
+           height="77.14286"
+           x="69.64286"
+           y="411.2579"
+           ry="3.3929238" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:25px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="128.9259"
+           y="456.97778"
+           id="text4138"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4140"
+             x="128.9259"
+             y="456.97778"
+             style="font-size:20.00000191px;fill:#101010;fill-opacity:1">Icestorm</tspan></text>
+      </g>
+      <g
+         transform="translate(-3.5647173,0)"
+         id="g4215">
+        <rect
+           style="opacity:1;fill:#f3b19d;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect4136-36"
+           width="118.82002"
+           height="77.142868"
+           x="196.56715"
+           y="412.49255"
+           ry="3.3929243" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:25px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="255.90393"
+           y="456.58157"
+           id="text4138-6"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4140-7"
+             x="255.90393"
+             y="456.58157"
+             style="font-size:20.00000191px;fill:#101010;fill-opacity:1">Iverilog</tspan></text>
+      </g>
+      <rect
+         ry="3.3358135"
+         y="413.14182"
+         x="316.36203"
+         height="75.844376"
+         width="116.82001"
+         id="rect4136-3"
+         style="opacity:1;fill:#f39dee;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4138-6-7"
+         y="458.22174"
+         x="374.74323"
+         style="font-style:normal;font-weight:normal;font-size:24.57919502px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:19.66335869px;fill:#101010;fill-opacity:1"
+           y="458.22174"
+           x="374.74323"
+           id="tspan4140-7-5"
+           sodipodi:role="line">GTKWave</tspan></text>
     </g>
   </g>
 </svg>

@@ -20,7 +20,7 @@ A community to **share knowledge** about **open FPGAs**
 ![](resources/7.end/FPGAwars-logo-min.png)
 
 * Language: spanish
-* Members: ~180
+* Members: ~200
 * Website: http://FPGAwars.github.io
 * GitHub: https://github.com/FPGAwars
 

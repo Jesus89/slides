@@ -619,6 +619,6 @@ set_io LED 99
 
 ---
 
-# Demo
+# Stack of tools
 
 ![](resources/5.python/demo-stack.png)
