@@ -312,14 +312,14 @@ set_io LED 99
 <br>
 
 * New Yosys front-ends:
-  * VHDL
+  * [VHDL](https://github.com/forflo/yodl)
   * ...
 
 <br>
 
 * New FPGAs support:
-  * Silego GreenPack4
-  * Xilinx 7-Series
+  * [Silego GreenPack4](https://github.com/azonenberg/openfpga)
+  * [Xilinx 7-Series](https://twitter.com/oe1cxw/status/782257812114116608)
   * iCE40 Ultralite
   * ...
 

@@ -1,11 +1,12 @@
 **/node_modules
 **/build
 **/dist
-**/*.log
-*.sconsign.dblite
-*.pyc
 **/__pycache__
 **/.cache
 **/.tox
 **.egg-info
+
+*.sconsign.dblite
+*.log
+*.pyc
 *.swp
