@@ -8,3 +8,4 @@
 **/.cache
 **/.tox
 **.egg-info
+*.swp

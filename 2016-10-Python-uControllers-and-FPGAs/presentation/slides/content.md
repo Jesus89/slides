@@ -177,7 +177,7 @@ New compilers: **Clang/LLVM** [2007, 2016)/[2003, 2016)
 
 ## GCC flow - example
 
-[examples/microcontroller/gcc]()
+[examples/microcontroller/gcc](https://github.com/Jesus89/slides/tree/master/2016-10-Python-uControllers-and-FPGAs/examples/microcontroller/gcc)
 
 <br>
 
@@ -250,7 +250,7 @@ Created by *Clifford Wolf* through reverse engineering
 
 ## IceStorm flow - example
 
-[examples/FPGA/icestorm]()
+[examples/FPGA/icestorm](https://github.com/Jesus89/slides/tree/master/2016-10-Python-uControllers-and-FPGAs/examples/FPGA/icestorm)
 
 <br>
 

@@ -12,7 +12,7 @@
   click - SCons - pySerial - pytest - tox
 </h3>
 
-[examples/Python-resources]()
+[examples/Python-resources](https://github.com/Jesus89/slides/tree/master/2016-10-Python-uControllers-and-FPGAs/examples/Python-resources)
 
 <!-- .slide: data-transition="slide-in fade-out" -->
 
